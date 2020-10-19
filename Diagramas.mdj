@@ -4070,7 +4070,7 @@
 									"font": "Arial;13;0",
 									"left": 515,
 									"top": 417.5,
-									"width": 274.4560546875,
+									"width": 274,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF0ozc5BS4gqEA="
@@ -9560,7 +9560,7 @@
 									"font": "Arial;13;0",
 									"left": 1022.5,
 									"top": 356.5,
-									"width": 435.2802734375,
+									"width": 434,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF0sqYcI4Ct7Fw="
@@ -11353,7 +11353,7 @@
 									"font": "Arial;13;0",
 									"left": 1015,
 									"top": 1020.5,
-									"width": 226.708984375,
+									"width": 226,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF0+sHeRN9m4WI="
@@ -13084,7 +13084,7 @@
 											"top": 451,
 											"width": 205.55615234375,
 											"height": 13,
-											"text": "-facebook_id: String",
+											"text": "-facebookId: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -13154,13 +13154,30 @@
 											"height": 13,
 											"text": "-createdAt: timestamp",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF1JEQT7zYffdg=",
+											"_parent": {
+												"$ref": "AAAAAAF0swGpY28DPsg="
+											},
+											"model": {
+												"$ref": "AAAAAAF1JEQTzjYcCdE="
+											},
+											"font": "Arial;13;0",
+											"left": 701,
+											"top": 526,
+											"width": 205.55615234375,
+											"height": 13,
+											"text": "-password: String",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 696,
 									"top": 401,
 									"width": 215.55615234375,
-									"height": 128
+									"height": 143
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -13183,7 +13200,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 534,
+											"top": 549,
 											"width": 205.55615234375,
 											"height": 13,
 											"text": "+create(): User",
@@ -13200,7 +13217,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 549,
+											"top": 564,
 											"width": 205.55615234375,
 											"height": 13,
 											"text": "+delete(): boolean",
@@ -13217,7 +13234,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 564,
+											"top": 579,
 											"width": 205.55615234375,
 											"height": 13,
 											"text": "+update(): User",
@@ -13234,7 +13251,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 579,
+											"top": 594,
 											"width": 205.55615234375,
 											"height": 13,
 											"text": "+list(): Array<User>",
@@ -13251,7 +13268,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 594,
+											"top": 609,
 											"width": 205.55615234375,
 											"height": 13,
 											"text": "+show(): User",
@@ -13268,7 +13285,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 609,
+											"top": 624,
 											"width": 205.55615234375,
 											"height": 13,
 											"text": "+updatePassword(): boolean",
@@ -13285,7 +13302,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 624,
+											"top": 639,
 											"width": 205.55615234375,
 											"height": 13,
 											"text": "+updateProfilePicture(): boolean",
@@ -13302,35 +13319,18 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 639,
-											"width": 205.55615234375,
-											"height": 13,
-											"text": "+listAddresses(): Array<Address>",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAF067Gf+Hmv2O0=",
-											"_parent": {
-												"$ref": "AAAAAAF0swGpY28Et5Y="
-											},
-											"model": {
-												"$ref": "AAAAAAF067Gf0nmsfLo="
-											},
-											"font": "Arial;13;0",
-											"left": 701,
 											"top": 654,
 											"width": 205.55615234375,
 											"height": 13,
-											"text": "+emailExists(String email): Boolean",
+											"text": "+listAddresses(): Array<Address>",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 696,
-									"top": 529,
+									"top": 544,
 									"width": 215.55615234375,
-									"height": 143
+									"height": 128
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -13370,7 +13370,7 @@
 							"left": 696,
 							"top": 376,
 							"width": 215.55615234375,
-							"height": 296,
+							"height": 311,
 							"nameCompartment": {
 								"$ref": "AAAAAAF0swGpY27+faE="
 							},
@@ -14486,7 +14486,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 959,
-									"top": 530,
+									"top": 534,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -14506,8 +14506,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 959,
-									"top": 545,
+									"left": 960,
+									"top": 549,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -14528,7 +14528,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 958,
-									"top": 501,
+									"top": 505,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -14546,7 +14546,7 @@
 								"$ref": "AAAAAAF0wgHCrHopPNU="
 							},
 							"lineStyle": 1,
-							"points": "1007:522;912:523",
+							"points": "1007:525;912:528",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF0wgHxNnrC5wo="
@@ -15293,7 +15293,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 799,
-									"top": 690,
+									"top": 705,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -15314,7 +15314,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 812,
-									"top": 693,
+									"top": 708,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -15334,7 +15334,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 762,
-									"top": 686,
+									"top": 701,
 									"width": 19.5126953125,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -15446,7 +15446,7 @@
 							"tail": {
 								"$ref": "AAAAAAF0swGpY279TNg="
 							},
-							"points": "784:671;784:1016;792:1016;792:1017;1184:1017",
+							"points": "784:686;784:1016;792:1016;792:1017;1184:1017",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF0wgtz+JbaP38="
@@ -21077,7 +21077,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF0swGpYm77Ygs="
 							},
-							"name": "facebook_id",
+							"name": "facebookId",
 							"visibility": "private",
 							"type": "String"
 						},
@@ -21120,6 +21120,16 @@
 							"name": "createdAt",
 							"visibility": "private",
 							"type": "timestamp"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF1JEQTzjYcCdE=",
+							"_parent": {
+								"$ref": "AAAAAAF0swGpYm77Ygs="
+							},
+							"name": "password",
+							"visibility": "private",
+							"type": "String"
 						}
 					],
 					"operations": [
@@ -21277,34 +21287,6 @@
 										"$ref": "AAAAAAF00HBqkcXLKs4="
 									},
 									"type": "Array<Address>",
-									"direction": "return"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAF067Gf0nmsfLo=",
-							"_parent": {
-								"$ref": "AAAAAAF0swGpYm77Ygs="
-							},
-							"name": "emailExists",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF067LygXqjpxQ=",
-									"_parent": {
-										"$ref": "AAAAAAF067Gf0nmsfLo="
-									},
-									"name": "String email",
-									"type": ""
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF067LygXqkl04=",
-									"_parent": {
-										"$ref": "AAAAAAF067Gf0nmsfLo="
-									},
-									"type": "Boolean",
 									"direction": "return"
 								}
 							]
