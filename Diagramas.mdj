@@ -15831,13 +15831,30 @@
 											"height": 13,
 											"text": "-postalCode: string",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF1jb6P16aK/U8=",
+											"_parent": {
+												"$ref": "AAAAAAF0wjYEf/3qoXc="
+											},
+											"model": {
+												"$ref": "AAAAAAF1jb6PvaaBH0I="
+											},
+											"font": "Arial;13;0",
+											"left": 405,
+											"top": 490,
+											"width": 184.59619140625,
+											"height": 13,
+											"text": "-isMain: Boolean",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 400,
 									"top": 305,
 									"width": 194.59619140625,
-									"height": 188
+									"height": 203
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -15860,7 +15877,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 405,
-											"top": 498,
+											"top": 513,
 											"width": 184.59619140625,
 											"height": 13,
 											"text": "+create(): Address",
@@ -15877,7 +15894,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 405,
-											"top": 513,
+											"top": 528,
 											"width": 184.59619140625,
 											"height": 13,
 											"text": "+show(): Address",
@@ -15894,7 +15911,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 405,
-											"top": 528,
+											"top": 543,
 											"width": 184.59619140625,
 											"height": 13,
 											"text": "+update(): Address",
@@ -15911,7 +15928,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 405,
-											"top": 543,
+											"top": 558,
 											"width": 184.59619140625,
 											"height": 13,
 											"text": "+list(): Array<Adress>",
@@ -15928,7 +15945,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 405,
-											"top": 558,
+											"top": 573,
 											"width": 184.59619140625,
 											"height": 13,
 											"text": "+delete(): boolean",
@@ -15945,7 +15962,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 405,
-											"top": 573,
+											"top": 588,
 											"width": 184.59619140625,
 											"height": 13,
 											"text": "+listContacts(): Array<Concatc>",
@@ -15954,7 +15971,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 400,
-									"top": 493,
+									"top": 508,
 									"width": 194.59619140625,
 									"height": 98
 								},
@@ -15996,7 +16013,7 @@
 							"left": 400,
 							"top": 280,
 							"width": 194.59619140625,
-							"height": 311,
+							"height": 326,
 							"nameCompartment": {
 								"$ref": "AAAAAAF0wjYEf/3l/lE="
 							},
@@ -17132,7 +17149,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 509,
-									"top": 612,
+									"top": 619,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -17153,7 +17170,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 524,
-									"top": 612,
+									"top": 619,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -17174,7 +17191,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 480,
-									"top": 613,
+									"top": 620,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -17195,7 +17212,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 510,
-									"top": 609,
+									"top": 624,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -17216,7 +17233,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 523,
-									"top": 612,
+									"top": 627,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -17236,7 +17253,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 473,
-									"top": 605,
+									"top": 620,
 									"width": 19.5126953125,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -17348,7 +17365,7 @@
 							"tail": {
 								"$ref": "AAAAAAF0wjYEf/3kyv0="
 							},
-							"points": "495:590;495:648",
+							"points": "495:605;495:648",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF0wkaYH0wM1Kw="
@@ -22269,6 +22286,16 @@
 							"name": "postalCode",
 							"visibility": "private",
 							"type": "string"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF1jb6PvaaBH0I=",
+							"_parent": {
+								"$ref": "AAAAAAF0wjYEfv3iIsM="
+							},
+							"name": "isMain",
+							"visibility": "private",
+							"type": "Boolean"
 						}
 					],
 					"operations": [
